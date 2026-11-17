@@ -1,0 +1,50 @@
+{
+  "version": "3.0.0",
+  "date": "2026-11-17",
+  "language": "C11",
+  "ui": "native Win32 controls and GDI",
+  "target": "Windows 10/11 x64",
+  "file_bytes": 441856,
+  "sha256": "12a31ade8c0dd73c26365fe111621342a1daaa61d6cfdaaeda1745d494dc878c",
+  "toolchain": "LLVM-MinGW 20240619 UCRT / Clang 18.1.8",
+  "imports": [
+    "COMCTL32.dll",
+    "GDI32.dll",
+    "comdlg32.dll",
+    "SHELL32.dll",
+    "ole32.dll",
+    "api-ms-win-crt-convert-l1-1-0.dll",
+    "api-ms-win-crt-heap-l1-1-0.dll",
+    "api-ms-win-crt-math-l1-1-0.dll",
+    "api-ms-win-crt-private-l1-1-0.dll",
+    "api-ms-win-crt-runtime-l1-1-0.dll",
+    "api-ms-win-crt-stdio-l1-1-0.dll",
+    "api-ms-win-crt-string-l1-1-0.dll",
+    "USER32.dll",
+    "KERNEL32.dll",
+    "api-ms-win-crt-environment-l1-1-0.dll",
+    "api-ms-win-crt-time-l1-1-0.dll"
+  ],
+  "browser_or_webview": false,
+  "python_runtime": false,
+  "hardware_tested": false,
+  "execution_environment": "Debian Linux + Wine 11.22 + Xvfb; simulated devices, PTY and mock SDK2 DLL",
+  "tests": {
+    "portable_C_checks": 1050,
+    "portable_C_failures": 0,
+    "native_GUI_cases": 24,
+    "native_GUI_failures": 0,
+    "Win32_serial_checks": 14,
+    "Win32_serial_failures": 0,
+    "SDK2_DLL_ABI_checks": 19,
+    "SDK2_DLL_ABI_failures": 0,
+    "data_validation": {
+      "runs": 5,
+      "committed_points": 40,
+      "raw_frames": 41,
+      "failures": 0
+    }
+  },
+  "hardware_dependency": "Manufacturer drivers and a compatible x64 Andor SDK2 installation are required for real devices.",
+  "timing": "Continuous positions are host exposure-midpoint linear estimates, not hardware-latched positions."
+}
